@@ -1,4 +1,4 @@
-
+require 'pry'
 def hopper
 	programmer_hash = 
  		{
@@ -83,6 +83,8 @@ def adding_matz
      }
 
     programmer_hash << [:yukihiro_matsumo]
+    
+    binding.pry
 end
 
 def changing_alan
